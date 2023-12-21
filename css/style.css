@@ -84,3 +84,15 @@ button{
     border-radius: 25px 25px;
     height: 45px;
 }
+.nom_de_filtre{
+    font-size: 1em;
+}
+.familial{
+    width: 130px ;
+ }
+ .ecoRomantique{
+     width: 150px;
+ }
+ .animaux{
+     width: 175px;
+ }
