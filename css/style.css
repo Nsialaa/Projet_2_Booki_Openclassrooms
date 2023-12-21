@@ -77,8 +77,7 @@ button{
 }
 /**************** SECTION FILTRES ******************/
 #conteneur_filtres_princ{
-    display: flex;
-    height: 100px;
+    display: flex;;
 }
 #conteneur_filtres_elements{
     display: flex;
