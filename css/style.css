@@ -28,7 +28,7 @@ nav{
 }
 #nav_hebergement, #nav_activites{
     border-top: 3px solid #0265FC;
-    height: 150px;
+    height: 120px;
     width: 200px;
     display: flex;
     justify-content: center;
