@@ -6,6 +6,13 @@ header{
     display: flex;
     justify-content: space-between;
 }
+#conteneur_logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -14,7 +21,7 @@ nav{
 }
 #nav_hebergement, #nav_activites{
     border-top: 3px solid #0265FC;
-    height: 120px;
+    height: 150px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -22,7 +29,6 @@ nav{
 }
 #nav_activites{
     border-top: 3px solid white;  
-    height: 120px;
     width:80px;
 }
 #nav_activites:hover{
