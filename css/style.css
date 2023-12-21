@@ -9,6 +9,7 @@ body{
     width: 88%;
     margin: auto;
 }
+/* ********** HEADER NAV ********/
 header{
     display: flex;
     justify-content: space-between;
@@ -40,4 +41,24 @@ nav{
 }
 #nav_activites:hover{
  border-top: 3px solid #0265FC;
+}
+
+/* ********** FORM ***********/
+form{
+    display: flex;
+}
+#conteneur_iconeForm{
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
+    padding-left: 20px;
+    width: 180px;
 }
