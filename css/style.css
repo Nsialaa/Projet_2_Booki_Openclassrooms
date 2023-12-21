@@ -140,11 +140,21 @@ button{
  }
 #hebergement, #populaire{
     width: 64%;
-    height: 600px;
+    height: 620px;
     background-color: #F2F2F2;
     margin-bottom: 50px;
     border-radius: 30px 30px;
 }
 #populaire{
     width: 33%;
+}
+.header_section{
+    margin: 15px 0px 10px 40px;
+}
+.main_hebergement{
+    display: flex;
+    margin: auto;
+    height: 430px;
+    border: 1px solid black;
+    width: 90%;
 }
