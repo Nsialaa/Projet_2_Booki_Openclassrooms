@@ -72,3 +72,15 @@ button{
     width: 125px;
     border: none;
 }
+/**************** SECTION FILTRES ******************/
+#conteneur_filtres_princ, #conteneur_filtres_elements{
+    display: flex;
+}
+#conteneur_filtres_princ{
+    justify-content: space-between;
+}
+.carte{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px 25px;
+    height: 45px;
+}
