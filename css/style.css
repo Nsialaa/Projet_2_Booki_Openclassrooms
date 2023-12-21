@@ -151,10 +151,24 @@ button{
 .header_section{
     margin: 15px 0px 10px 40px;
 }
+.affiche{
+    margin-left: 40px;
+    font-size: 1em;
+}
+.affiche a {
+    color: black;
+}
 .main_hebergement{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: auto;
-    height: 430px;
-    border: 1px solid black;
+    height: 450px;
     width: 90%;
+}
+.carte_hebergement{
+    height: 200px;
+    width: 31%;
+    background-color: white;
+    border-radius: 25px 25px;
 }
