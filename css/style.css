@@ -133,3 +133,18 @@ button{
     margin-right: 15px;
     color: #0265FC;
  }
+ /* ******************** HEBERGEMENTS *********************/
+ #conteneur_hebergement_populaire{
+    display: flex;
+    justify-content: space-between;
+ }
+#hebergement, #populaire{
+    width: 64%;
+    height: 600px;
+    background-color: #F2F2F2;
+    margin-bottom: 50px;
+    border-radius: 30px 30px;
+}
+#populaire{
+    width: 33%;
+}
