@@ -10,5 +10,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 210px;
+    width: 250px;
+}
+#nav_hebergement{
+    border-top: 3px solid #0265FC;
+    height: 120px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
