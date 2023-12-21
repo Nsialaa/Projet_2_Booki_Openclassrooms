@@ -59,6 +59,16 @@ form{
 input{
     border: 1px solid #F2F2F2;
     font-weight: bold;
+    font-size: 1em;
     padding-left: 20px;
     width: 180px;
+}
+button{
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0265FC;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    width: 125px;
+    border: none;
 }
