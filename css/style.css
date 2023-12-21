@@ -10,13 +10,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 250px;
+    width: 280px;
 }
-#nav_hebergement{
+#nav_hebergement, #nav_activites{
     border-top: 3px solid #0265FC;
     height: 120px;
-    width: 170px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#nav_activites{
+    border-top: 3px solid white;  
+    height: 120px;
+    width:80px;
+}
+#nav_activites:hover{
+ border-top: 3px solid #0265FC;
 }
