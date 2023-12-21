@@ -72,13 +72,18 @@ button{
     width: 125px;
     border: none;
 }
+#sous_header{
+    margin-bottom: 35px;
+}
 /**************** SECTION FILTRES ******************/
 #conteneur_filtres_princ, #conteneur_filtres_elements{
     display: flex;
 }
-#conteneur_filtres_princ{
-    justify-content: space-between;
+#conteneur_filtres_elements{
+    width: 800px;
+    justify-content: space-around;
 }
+
 .carte{
     display: flex;
     border: 2px solid #D9D9D9;
