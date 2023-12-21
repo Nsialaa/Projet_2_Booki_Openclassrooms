@@ -96,13 +96,14 @@ button{
 .conteneur_icone_filtres{
     display: flex;
     justify-content: center;
+    margin-right: 10px;
     align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px 30px;
     background-color: #DEEBFF;
     position: relative;
-    left: -11px;
+    left: -5px;
 }
 .nom_de_filtre{
     font-size: 1em;
