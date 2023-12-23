@@ -191,9 +191,23 @@ button{
 .header_aside{
     margin: 15px 0px 10px 0px;
 }
-.header_aside , .titre_aside{
+ .titre_aside{
     margin: 0px;
+}
+.header_aside{
+margin: 0px 0px 32px 0px;
 }
 .conteneur_icone_aside i{
     font-size: 1.5em;
+}
+#main_aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 510px;
+}
+.carte_populaire{
+    height: 150px;
+    background-color: white;
+    border-radius: 20px 20px;
 }
