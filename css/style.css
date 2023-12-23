@@ -150,7 +150,11 @@ button{
     width: 33%;
 }
 .header_section, .affiche{
-    margin: 15px 0px 10px 40px;
+    margin: 15px 0px 10px 0px;
+}
+#conteneur_header_mainHebergement{
+    width: 90%;
+    margin: auto;
 }
 .main_hebergement{
     display: flex;
@@ -158,7 +162,6 @@ button{
     flex-wrap: wrap;
     margin: auto;
     height: 450px;
-    width: 90%;
 }
 .carte_hebergement{
     height: 210px;
