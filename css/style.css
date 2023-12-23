@@ -178,3 +178,22 @@ button{
 .affiche{
     font-size: 1.1em;
 }
+/* ********************* LES PLUS POPULAIRES ********************** */
+#populaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteneur_header_mainAside{
+    width: 83%;
+    height: 570px;
+}
+.header_aside{
+    margin: 15px 0px 10px 0px;
+}
+.header_aside , .titre_aside{
+    margin: 0px;
+}
+.conteneur_icone_aside i{
+    font-size: 1.5em;
+}
