@@ -177,6 +177,25 @@ button{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+.nom_chambre_h{
+    font-size: 1em;
+    margin: 3px 0px 5px 0px;
+}
+.nuit_h{
+    margin: 3px 0px 0px 0px;
+}
+#conteneur_note{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+#conteneur_note .star {
+    margin-top: 5px;
+}
+#conteneur_note .star2 {
+    margin-top: 5px;
+}
+
 
 #conteneur_affiche{
     display: flex;
