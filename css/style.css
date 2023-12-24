@@ -299,7 +299,7 @@ margin: 0px 0px 32px 0px;
 }
 /** Repertorie les valeur gzeneral des cartes activites**/
 .activites{
-    width: 315px;
+    width: 302px;
     border-radius: 20px 20px 20px 20px;
     box-shadow:6px 6px 5px #e0d9d9;
 }
@@ -312,14 +312,19 @@ margin: 0px 0px 32px 0px;
     margin-left: 20px;
 }
 /* *********** Vieux Port Pomègues Frioul rives gauche*************** */
-#conteneur_secondaire_gauche,#conteneur_secondaire_droit, #conteneur_petite_activites{
+#conteneur_general_activites{
+    display: flex;
+    justify-content: space-between;
+}
+#conteneur_secondaire_gauche,#conteneur_secondaire_droit{
   display: flex;
 }
 #conteneur_secondaire_gauche, #conteneur_secondaire_droit{
     justify-content: space-between;
-    width: 50%;
+    width: 48.4%;
 }
 #conteneur_petite_activites{
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
