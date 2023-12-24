@@ -181,6 +181,7 @@ button{
     background-color: white;
     margin-bottom: 27px;
     padding: 5px;
+    box-shadow:6px 6px 5px #e0d9d9;
 }
 .carte_hebergement:hover{
     transform: scale(1.02);
@@ -259,6 +260,7 @@ margin: 0px 0px 32px 0px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    box-shadow:6px 6px 5px #e0d9d9;
 }
 .carte_populaire:hover{
     transform: scale(1.02);
