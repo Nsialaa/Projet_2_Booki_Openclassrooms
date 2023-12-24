@@ -259,5 +259,9 @@ margin: 0px 0px 32px 0px;
     display: flex;
 }
 .nom_chambre_a{
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+.nuit_a{
+    margin-top: 10px;
 }
