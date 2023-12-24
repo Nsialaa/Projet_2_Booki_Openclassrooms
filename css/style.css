@@ -224,6 +224,10 @@ button{
 .header_aside{
 margin: 0px 0px 32px 0px;
 }
+#conteneur_desc_h{
+    margin: auto;
+    width: 210px;
+}
 .conteneur_icone_aside i{
     font-size: 1.5em;
 }
