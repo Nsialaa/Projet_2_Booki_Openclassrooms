@@ -297,9 +297,6 @@ margin: 0px 0px 32px 0px;
 #conteneur_general_activites{
     display: flex;
 }
-.vieuxP{
-    height: 510px;
-}
 /** Repertorie les valeur gzeneral des cartes activites**/
 .activites{
     width: 330px;
@@ -314,11 +311,13 @@ margin: 0px 0px 32px 0px;
     font-size: 1em;
     margin-left: 20px;
 }
-/* ************************** */
-.vieuxP img{
+/* *********** Vieux Port*************** */
+.vieuxP img, .calanques img{
     width: 100%;
     height: 450px;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-    
+    border-radius: 20px 20px 0px 0px;    
+}
+.vieuxP, .calanques{
+    height: 510px;
 }
