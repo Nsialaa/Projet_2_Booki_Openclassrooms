@@ -312,12 +312,22 @@ margin: 0px 0px 32px 0px;
     margin-left: 20px;
 }
 /* *********** Vieux Port*************** */
-.vieuxP img, .calanques img{
+.grande_activites img, .grande_activites img{
     width: 100%;
     height: 450px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;    
 }
-.vieuxP, .calanques{
+.petite_activites img{
+    height:250px ;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.grande_activites{
     height: 510px;
 }
+.petite_activites{
+    height: 300px;
+}
+
