@@ -177,6 +177,10 @@ button{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+#conteneur_desc_h{
+    margin: auto;
+    width: 210px;
+}
 .nom_chambre_h{
     font-size: 1em;
     margin: 3px 0px 5px 0px;
@@ -224,10 +228,6 @@ button{
 .header_aside{
 margin: 0px 0px 32px 0px;
 }
-#conteneur_desc_h{
-    margin: auto;
-    width: 210px;
-}
 .conteneur_icone_aside i{
     font-size: 1.5em;
 }
@@ -241,4 +241,5 @@ margin: 0px 0px 32px 0px;
     height: 150px;
     background-color: white;
     border-radius: 20px 20px;
+    padding: 5px;
 }
