@@ -2,6 +2,12 @@
 *{
     font-family: 'Raleway', 'sans-serif';
 }
+.star{
+    color: #0265FC;
+}
+.star2{
+    color: #D9D9D9;
+}
 a{
     text-decoration: none;
     color: black;
