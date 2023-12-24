@@ -288,3 +288,7 @@ margin: 0px 0px 32px 0px;
 .nuit_a{
     margin-top: 10px;
 }
+/********************* SECTION ACTIVITES **********************/
+#conteneur_general_activites{
+    display: flex;
+}
