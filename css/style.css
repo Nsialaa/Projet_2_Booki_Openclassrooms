@@ -257,6 +257,9 @@ margin: 0px 0px 32px 0px;
 }
 #conteneur_note_a{
     display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100px;
 }
 .nom_chambre_a{
     font-size: 1.2em;
