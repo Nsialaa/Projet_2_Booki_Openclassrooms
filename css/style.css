@@ -287,6 +287,10 @@ margin: 0px 0px 32px 0px;
     font-size: 1.2em;
     margin-bottom: 0px;
 }
+.nom_chambre_coeur{
+    font-size: 1.1em;
+    margin-bottom: 0px;
+}
 .nuit_a{
     margin-top: 10px;
 }
@@ -350,7 +354,10 @@ margin: 0px 0px 32px 0px;
 }
 @media screen and (min-width :992px) and (max-width:1320px)
 {
- 
+    #conteneur_hebergement_populaire{
+        flex-direction: column;
+    }
+    
 }
 
 
