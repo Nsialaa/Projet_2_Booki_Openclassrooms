@@ -194,7 +194,7 @@ button{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-#conteneur_desc_h{
+.conteneur_desc_h{
     margin: auto;
     width: 210px;
 }
@@ -205,15 +205,15 @@ button{
 .nuit_h{
     margin: 3px 0px 0px 0px;
 }
-#conteneur_note{
+.conteneur_note{
     display: flex;
     justify-content: space-between;
     width: 100px;
 }
-#conteneur_note .star {
+.conteneur_note .star {
     margin-top: 5px;
 }
-#conteneur_note .star2 {
+.conteneur_note .star2 {
     margin-top: 5px;
 }
 
@@ -275,10 +275,10 @@ margin: 0px 0px 32px 0px;
  margin-right: 20px;
 }
 
-#conteneur_desc_a{
+.conteneur_desc_a{
     width: 200px;
 }
-#conteneur_note_a{
+.conteneur_note_a{
     display: flex;
     justify-content: space-between;
     width: 100px;
@@ -324,7 +324,7 @@ margin: 0px 0px 32px 0px;
     justify-content: space-between;
     width: 48.4%;
 }
-#conteneur_petite_activites{
+.conteneur_petite_activites{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
