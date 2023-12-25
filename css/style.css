@@ -177,7 +177,7 @@ button{
 }
 .carte_hebergement{
     height: 200px;
-    width: 31%;
+    width: 30%;
     border-radius: 20px 20px;
     background-color: white;
     margin-bottom: 27px;
@@ -255,7 +255,7 @@ margin: 0px 0px 32px 0px;
     height: 510px;
 }
 .carte_populaire{
-    height: 150px;
+    height: 141px;
     background-color: white;
     border-radius: 20px 20px;
     padding: 5px;
@@ -268,7 +268,7 @@ margin: 0px 0px 32px 0px;
     transition: ease-in-out;
 }
 .picture_img_a img{
- height: 149px;
+ height: 140px;
  width: 135px;
  border-radius: 20px 0px 0px 20px;
  object-fit: cover;
