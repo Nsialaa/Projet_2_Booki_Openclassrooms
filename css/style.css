@@ -377,7 +377,29 @@ margin: 0px 0px 32px 0px;
     .nom_chambre_a{
         font-size: 1em
     }
-    
+    #conteneur_general_activites{
+        flex-direction: column;
+    }
+    #conteneur_secondaire_gauche, #conteneur_secondaire_droit{
+        width: 100%;
+    }
+    #conteneur_secondaire_gauche{
+        margin-bottom: 50px;
+    }
+    .activites{
+        width: 590px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow:6px 6px 5px #e0d9d9;
+    }
+    .grande_activites img, .grande_activites img{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;    
+    }
+    .header_activites{
+        margin-bottom: 20px;
+    }
 }
 
 
