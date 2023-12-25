@@ -199,7 +199,7 @@ button{
     width: 210px;
 }
 .nom_chambre_h{
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 3px 0px 5px 0px;
 }
 .nuit_h{
@@ -259,9 +259,12 @@ margin: 0px 0px 32px 0px;
     background-color: white;
     border-radius: 20px 20px;
     padding: 5px;
+
+    box-shadow:6px 6px 5px #e0d9d9;
+}
+.main_carte_populaire{
     display: flex;
     justify-content: space-between;
-    box-shadow:6px 6px 5px #e0d9d9;
 }
 .carte_populaire:hover{
     transform: scale(1.02);
@@ -364,15 +367,14 @@ margin: 0px 0px 32px 0px;
         width: 88%;
     }
     #conteneur_header_mainAside{
-        width: 94%;
+        
         height: 237px;
     }
     #main_aside{
         flex-direction: row;
     }
     #populaire{
-        height: 290px;
-        
+        height: 290px; 
     }
     .nom_chambre_a{
         font-size: 1em
@@ -388,17 +390,12 @@ margin: 0px 0px 32px 0px;
     }
     .activites{
         width: 590px;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow:6px 6px 5px #e0d9d9;
-    }
-    .grande_activites img, .grande_activites img{
-        width: 100%;
-        height: 450px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;    
     }
     .header_activites{
         margin-bottom: 20px;
+    }
+    .conteneur_desc_h{
+        width: 275px;
     }
 }
 
