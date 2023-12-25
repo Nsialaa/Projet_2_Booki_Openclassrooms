@@ -272,6 +272,7 @@ margin: 0px 0px 32px 0px;
  width: 135px;
  border-radius: 20px 0px 0px 20px;
  object-fit: cover;
+ margin-right: 20px;
 }
 
 #conteneur_desc_a{
@@ -342,8 +343,14 @@ margin: 0px 0px 32px 0px;
 }
 .grande_activites{
     height: 510px;
+    margin-right: 35px;
 }
 .petite_activites{
     height: 235px;
 }
+@media screen and (min-width :992px) and (max-width:1320px)
+{
+ 
+}
+
 
