@@ -355,7 +355,27 @@ margin: 0px 0px 32px 0px;
 @media screen and (min-width :992px) and (max-width:1320px)
 {
     #conteneur_hebergement_populaire{
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    #hebergement, #populaire{
+        width: 100%;
+    }
+    .carte_populaire{
+        width: 88%;
+    }
+    #conteneur_header_mainAside{
+        width: 94%;
+        height: 237px;
+    }
+    #main_aside{
+        flex-direction: row;
+    }
+    #populaire{
+        height: 290px;
+        
+    }
+    .nom_chambre_a{
+        font-size: 1em
     }
     
 }
