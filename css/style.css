@@ -364,7 +364,7 @@ margin: 0px 0px 32px 0px;
         width: 100%;
     }
     .carte_populaire{
-        width: 88%;
+        width: 30%;
     }
     #conteneur_header_mainAside{
         
@@ -396,6 +396,9 @@ margin: 0px 0px 32px 0px;
     }
     .conteneur_desc_h{
         width: 275px;
+    }
+    #conteneur_header_mainAside{
+        width: 95%;
     }
 }
 
