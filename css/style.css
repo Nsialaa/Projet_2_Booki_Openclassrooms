@@ -376,7 +376,7 @@ margin: 0px 0px 32px 0px;
     #populaire{
         height: 290px; 
     }
-    .nom_chambre_a{
+    .nom_chambre_a, .nom_chambre_coeur{
         font-size: 1em
     }
     #conteneur_general_activites{
@@ -397,8 +397,21 @@ margin: 0px 0px 32px 0px;
     .conteneur_desc_h{
         width: 275px;
     }
+    .conteneur_nomination_a{
+        height: 98px;
+    }
+    .conteneur_desc_a{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     #conteneur_header_mainAside{
         width: 95%;
+    }
+    .picture_img_a img{
+        width: 100px;
+        margin-right: 10px;
     }
 }
 
