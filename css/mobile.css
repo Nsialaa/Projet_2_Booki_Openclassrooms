@@ -1,0 +1,71 @@
+.carte_hebergement{
+    width: 100%;
+}
+#hebergement{
+    height: 1550px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#nav_hebergement ,#nav_activites{
+    width: 50%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+#nav_hebergement{
+    border-bottom: 3px solid #0265FC;
+    border-top:none
+}
+#nav_activites{
+    border-top: none;
+}
+#nav_activites:hover{
+    border-bottom: 3px solid #0265FC;
+    border-top: none;
+}
+#conteneur_affiche {
+    margin-top: 950px;
+}
+.conteneur_desc_h {
+    width: 98%;
+}
+#conteneur_general_activites{
+    flex-direction: column;
+}
+#conteneur_secondaire_gauche, #conteneur_secondaire_droit
+{
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.activites{
+    margin-bottom: 50px;
+}
+.grande_activites, .petite_activites{
+   width: 100%;
+}
+#conteneur_secondaire_droit {
+    margin-bottom: 0px; 
+}
+.header_activites{
+    margin-bottom: 15px;
+}
+body{
+    width: 98%;
+}
+#populaire{
+    margin-bottom: 15px;
+    border-radius: 0px 0px;
+}
+.grande_activites img, .grande_activites img {
+    height: 175px;
+}
+.grande_activites {
+    height: 237px;
+    margin-right: 0px;
+}
+header{
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+}
