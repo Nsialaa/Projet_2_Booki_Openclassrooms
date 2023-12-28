@@ -44,3 +44,7 @@
 .main_carte_populaire{
     justify-content: flex-start;
 }
+#footer_main
+{
+    width: 90%;
+}

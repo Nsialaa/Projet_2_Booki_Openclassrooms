@@ -18,6 +18,7 @@
 }
 #nav_activites{
     border-top: none;
+    border-bottom: 3px solid white;
 }
 #nav_activites:hover{
     border-bottom: 3px solid #0265FC;
@@ -63,9 +64,40 @@ body{
     height: 237px;
     margin-right: 0px;
 }
-header{
+.header_head{
     flex-direction: column;
 }
 nav{
+    width: 100%;
+}
+#conteneur_logo{
+    display: flex;
+    justify-content: center;
+}
+.picture_img_a img{
+    width: 140px;
+}
+input{
+    width: 50%;
+}
+button{ 
+    border-radius: 15px 15px;
+    width: 60px;
+}
+.button_Un{
+    display: none;
+}
+.button_Deux{
+    color: white;
+    font-size: 1em;
+}
+#footer_main
+{
+  height: 500px;
+  flex-direction: column;
+  width: 90%;
+}
+.footercolone
+{
     width: 100%;
 }

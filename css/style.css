@@ -355,6 +355,55 @@ margin: 0px 0px 32px 0px;
 .petite_activites{
     height: 235px;
 }
+.button_Deux{
+   color: #0265FC;
+   font-size: 0em;
+}
+footer
+{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+#footer_main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 220px;
+  
+}
+.footercolone
+{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_Informationbloc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+}
+.footer_Informationbloc2 /* bloc hébergements et assistance car ils ne sont pas identique au bloc "A propos" */
+{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    
+}
+.footer_Informationbloc3 /* Permet grâce aux propriétés ci-dessous le même alignement que les "choix" du bloc "A propos" */
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    
+}
 @media screen and (min-width :992px) and (max-width:1320px)
 {
     #conteneur_hebergement_populaire{

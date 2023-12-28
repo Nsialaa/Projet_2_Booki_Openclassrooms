@@ -24,7 +24,7 @@
 <body>
 
     <!-- HEADER NAV -->
-    <header>
+    <header class="header_head">
         <div id="conteneur_logo">
           <p class="logo"> <img src="images/logo/Booki.png" alt="Logo du site"></p>
         </div>
@@ -49,7 +49,12 @@
             <label for="prenom"></label>
             <input type="text" name="prenom" id="prenom" placeholder="Marseille, France">
 
-            <button>Rechercher</button>
+            <button>
+                <span class="button_Un">Rechercher</span>
+                <span class="button_Deux">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </span>
+            </button>
 
         </form>
     </section>
@@ -372,5 +377,43 @@
 
        </section>
     </main>
+
+    <footer>
+        <div id="footer_main">
+
+            <div class="footercolone">
+
+                <h2 class="footer_titre">A propos</h2>
+                    <div class="footer_Informationbloc">
+                         <div class="footerinformation"><a href="#">Fonctionnement du site</a></div>
+                         <div class="footerinformation"><a>Conditions générales de vente</a></div> 
+                         <div class="footerinformation"><a href="#">Données et confidentialités</a></div>
+                    </div> 
+            </div>
+
+            <div class="footercolone">
+
+                <h2 class="footer_titre">Nos hébergements</h2>
+                     <div class="footer_Informationbloc2">
+                         <div class="footer_Informationbloc3">
+                            <div class="footerinformation"> <a href="#">Charte de qualité</a></div>
+                            <div class="footerinformation"><a href="#">Soumettre votre hôtel</a></div>
+                         </div>
+                     </div>
+            </div>
+            <div class="footercolone">
+
+                <h2 class="footer_titre">Assistance</h2>
+                      <div class="footer_Informationbloc2">
+                        <div class="footer_Informationbloc3">
+                            <div class="footerinformation"><a href="#">Centre d'aide</a></div>
+                            <div class="footerinformation"><a href="#">Nous contacter</a></div>
+                        </div>
+                      </div>
+            </div>
+           
+        </div>
+
+    </footer>
 </body>
 </html>
