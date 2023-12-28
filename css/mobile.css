@@ -30,6 +30,10 @@
 .conteneur_desc_h {
     width: 98%;
 }
+
+#conteneur_header_mainHebergement{
+    width: 100%;
+}
 #conteneur_general_activites{
     flex-direction: column;
 }
@@ -39,7 +43,7 @@
     margin-bottom: 0px;
 }
 .activites{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .grande_activites, .petite_activites{
    width: 100%;
@@ -50,7 +54,7 @@
 .header_activites{
     margin-bottom: 15px;
 }
-body{
+#content{
     width: 98%;
 }
 #populaire{
@@ -96,8 +100,15 @@ button{
   height: 500px;
   flex-direction: column;
   width: 90%;
+  margin-left: 10px;
+}
+footer{
+    margin-top: 0px;
 }
 .footercolone
 {
     width: 100%;
+}
+#conteneur_filtres_princ{
+    flex-direction: column;
 }
