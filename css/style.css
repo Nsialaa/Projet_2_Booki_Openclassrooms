@@ -12,6 +12,52 @@ a{
     text-decoration: none;
     color: black;
 }
+/**** SPIN LOADER ****/
+.bloc-spin
+{
+    inset: 0;
+    background-color: #fff;
+    position: fixed;
+    opacity: 0.9;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: disappear 200ms forwards;
+    animation-delay: 4s;
+}
+.loader
+{
+    border: 6px solid #fff;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+.loader-quart
+{
+    border-top: 6px solid #0065FC;
+    animation: spin 1s linear infinite;
+    
+}
+@keyframes spin
+{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes disappear
+{
+    0% {
+        transform: scale(100%);
+    }
+    100% {
+        transform: scale(0%);
+    }
+}
 
 #content{
     width: 88%;
