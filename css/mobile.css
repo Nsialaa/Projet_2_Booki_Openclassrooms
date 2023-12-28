@@ -30,6 +30,15 @@
 .conteneur_desc_h {
     width: 98%;
 }
+.conteneur_desc_a{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star, .star2{
+    margin: 0px;
+}
 
 #conteneur_header_mainHebergement{
     width: 100%;
@@ -111,4 +120,14 @@ footer{
 }
 #conteneur_filtres_princ{
     flex-direction: column;
+}
+.nom_chambre_a, .nom_chambre_coeur{
+    font-size: 1em;
+}
+.picture_img_a{
+    width: 127px;
+    margin-right: 10px;
+}
+.picture_img_a img{
+    width: 100%;
 }
