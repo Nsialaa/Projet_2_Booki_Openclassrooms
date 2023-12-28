@@ -2,13 +2,23 @@
 *{
     font-family: 'Raleway', 'sans-serif';
 }
+.star{
+    color: #0265FC;
+}
+.star2{
+    color: #D9D9D9;
+}
 a{
     text-decoration: none;
+    color: black;
 }
-body{
+
+#content{
     width: 88%;
     margin: auto;
 }
+body{
+    margin: 0px}
 /* ********** HEADER NAV ********/
 header{
     display: flex;
@@ -17,6 +27,7 @@ header{
 #conteneur_logo{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .logo img{
     height: 50px;
@@ -75,9 +86,15 @@ button{
 #sous_header{
     margin-bottom: 35px;
 }
+.localisation{
+    margin-top: 7px;
+}
+h1{
+    margin-bottom: 0px;
+}
 /**************** SECTION FILTRES ******************/
 #conteneur_filtres_princ{
-    display: flex;;
+    display: flex;
 }
 #conteneur_filtres_elements{
     display: flex;
@@ -92,6 +109,11 @@ button{
     height: 50px;
     margin-left: 30px;
     margin-bottom: 20px;
+}
+.carte:hover{
+    background-color: #DEEBFF;
+    transform: scale(1.02);
+    transition: ease-in-out;
 }
 .conteneur_icone_filtres{
     display: flex;
@@ -140,23 +162,20 @@ button{
  }
 #hebergement, #populaire{
     width: 64%;
-    height: 620px;
+    height: 640px;
     background-color: #F2F2F2;
-    margin-bottom: 50px;
+    margin: 30px 0px 30px 0px;
     border-radius: 30px 30px;
 }
 #populaire{
     width: 33%;
 }
-.header_section{
-    margin: 15px 0px 10px 40px;
+.header_section, .affiche{
+    margin: 15px 0px 10px 0px;
 }
-.affiche{
-    margin-left: 40px;
-    font-size: 1em;
-}
-.affiche a {
-    color: black;
+#conteneur_header_mainHebergement{
+    width: 90%;
+    margin: auto;
 }
 .main_hebergement{
     display: flex;
@@ -164,11 +183,295 @@ button{
     flex-wrap: wrap;
     margin: auto;
     height: 450px;
-    width: 90%;
 }
 .carte_hebergement{
     height: 200px;
-    width: 31%;
+    width: 30%;
+    border-radius: 20px 20px;
     background-color: white;
-    border-radius: 25px 25px;
+    margin-bottom: 27px;
+    padding: 5px;
+    box-shadow:6px 6px 5px #e0d9d9;
 }
+.carte_hebergement:hover{
+    transform: scale(1.02);
+    transition: ease-in-out;
+}
+.picture_h img{
+    height: 120px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.conteneur_desc_h{
+    margin: auto;
+    width: 210px;
+}
+.nom_chambre_h{
+    font-size: 1.1em;
+    margin: 3px 0px 5px 0px;
+}
+.nuit_h{
+    margin: 3px 0px 0px 0px;
+}
+.conteneur_note{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.conteneur_note .star {
+    margin-top: 5px;
+}
+.conteneur_note .star2 {
+    margin-top: 5px;
+}
+
+
+#conteneur_affiche{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.affiche{
+    font-size: 1.1em;
+}
+/* ********************* LES PLUS POPULAIRES ********************** */
+#populaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteneur_header_mainAside{
+    width: 83%;
+    height: 570px;
+}
+.header_aside{
+    margin: 15px 0px 10px 0px;
+}
+ .titre_aside{
+    margin: 0px;
+}
+.header_aside{
+margin: 0px 0px 32px 0px;
+}
+.conteneur_icone_aside i{
+    font-size: 1.5em;
+}
+#main_aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 510px;
+}
+.carte_populaire{
+    height: 141px;
+    background-color: white;
+    border-radius: 20px 20px;
+    padding: 5px;
+
+    box-shadow:6px 6px 5px #e0d9d9;
+}
+.main_carte_populaire{
+    display: flex;
+    justify-content: space-between;
+}
+.carte_populaire:hover{
+    transform: scale(1.02);
+    transition: ease-in-out;
+}
+.picture_img_a img{
+ height: 140px;
+ width: 135px;
+ border-radius: 20px 0px 0px 20px;
+ object-fit: cover;
+ margin-right: 20px;
+}
+
+.conteneur_desc_a{
+    width: 200px;
+}
+.conteneur_note_a{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.nom_chambre_a{
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+.nom_chambre_coeur{
+    font-size: 1.1em;
+    margin-bottom: 0px;
+}
+.nuit_a{
+    margin-top: 10px;
+}
+/********************* SECTION ACTIVITES **********************/
+#Activites{
+    margin-bottom: 30px;
+}
+
+#conteneur_general_activites{
+    display: flex;
+}
+/** Repertorie les valeur gzeneral des cartes activites**/
+.activites{
+    width: 302px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:6px 6px 5px #e0d9d9;
+}
+.activites:hover{
+    transform: scale(1.02);
+    transition: ease-in-out;
+}
+.titre_activites{
+    font-size: 1em;
+    margin-left: 20px;
+}
+/* *********** Vieux Port Pomègues Frioul rives gauche*************** */
+#conteneur_general_activites{
+    display: flex;
+    justify-content: space-between;
+}
+#conteneur_secondaire_gauche,#conteneur_secondaire_droit{
+  display: flex;
+}
+#conteneur_secondaire_gauche, #conteneur_secondaire_droit{
+    justify-content: space-between;
+    width: 48.4%;
+}
+.conteneur_petite_activites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grande_activites img, .grande_activites img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;    
+}
+.petite_activites img{
+    height:175px ;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.grande_activites{
+    height: 510px;
+    margin-right: 35px;
+}
+.petite_activites{
+    height: 235px;
+}
+.button_Deux{
+   color: #0265FC;
+   font-size: 0em;
+}
+footer
+{
+    
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+}
+#footer_main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 220px;
+    margin-left: 100px;
+  
+}
+.footercolone
+{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_Informationbloc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+}
+.footer_Informationbloc2 /* bloc hébergements et assistance car ils ne sont pas identique au bloc "A propos" */
+{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    
+}
+.footer_Informationbloc3 /* Permet grâce aux propriétés ci-dessous le même alignement que les "choix" du bloc "A propos" */
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+@media screen and (min-width :992px) and (max-width:1320px)
+{
+    #conteneur_hebergement_populaire{
+        flex-direction: column-reverse;
+    }
+    #hebergement, #populaire{
+        width: 100%;
+    }
+    .carte_populaire{
+        width: 30%;
+    }
+    #conteneur_header_mainAside{
+        
+        height: 237px;
+    }
+    #main_aside{
+        flex-direction: row;
+    }
+    #populaire{
+        height: 290px; 
+    }
+    .nom_chambre_a, .nom_chambre_coeur{
+        font-size: 1em
+    }
+    #conteneur_general_activites{
+        flex-direction: column;
+    }
+    #conteneur_secondaire_gauche, #conteneur_secondaire_droit{
+        width: 100%;
+    }
+    #conteneur_secondaire_gauche{
+        margin-bottom: 50px;
+    }
+    .activites{
+        width: 590px;
+    }
+    .header_activites{
+        margin-bottom: 20px;
+    }
+    .conteneur_desc_h{
+        width: 275px;
+    }
+    .conteneur_nomination_a{
+        height: 98px;
+    }
+    .conteneur_desc_a{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #conteneur_header_mainAside{
+        width: 95%;
+    }
+    .picture_img_a img{
+        width: 100px;
+        margin-right: 10px;
+    }
+}
+
+

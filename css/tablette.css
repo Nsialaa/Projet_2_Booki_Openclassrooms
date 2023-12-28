@@ -1,0 +1,50 @@
+#conteneur_hebergement_populaire{
+    flex-direction: column-reverse;
+}
+#hebergement, #populaire{
+    width: 100%;
+}
+#hebergement{
+    height: 860px;
+}
+#main_hebergement{
+    flex-wrap: wrap;
+}
+.carte_hebergement{
+    width: 46%;
+}
+
+.conteneur_desc_h {
+    width: 330px;
+}
+#conteneur_affiche{
+    margin-top: 229px;
+}
+#conteneur_general_activites{
+    flex-direction: column-reverse;
+}
+#conteneur_secondaire_gauche, #conteneur_secondaire_droit{
+    width: 100%;
+}
+#conteneur_secondaire_gauche{
+    margin-bottom: 50px;
+}
+#conteneur_secondaire_droit{
+    margin-bottom: 50px;
+}
+.activites{
+    width: 410px;
+}
+.activitesT{
+    width: 385px;
+}
+.picture_img_a img{
+    width: 220px;
+}
+.main_carte_populaire{
+    justify-content: flex-start;
+}
+#footer_main
+{
+    width: 90%;
+}
