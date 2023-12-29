@@ -64,7 +64,7 @@
     margin-bottom: 15px;
 }
 #content{
-    width: 98%;
+    width: 100%;
 }
 #populaire{
     margin-bottom: 15px;
@@ -109,7 +109,7 @@ button{
   height: 500px;
   flex-direction: column;
   width: 90%;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 footer{
     margin-top: 0px;
@@ -131,7 +131,20 @@ footer{
 .picture_img_a img{
     width: 100%;
 }
-#sous_header{
+#sous_header, #conteneur_filtres_princ, #information_logements{
     width: 94%;
+    margin: auto;
+}
+#conteneur_logo_info {
+    height: 30px;   
+    width: 30px; 
+}
+#information_logements{
+    align-items: center;
+}
+#conteneur_header_mainAside, #conteneur_header_mainHebergement, #Activites {
+    width: 87%;
+}
+#Activites{
     margin: auto;
 }

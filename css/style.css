@@ -153,8 +153,12 @@ h1{
     border: 2px solid #D9D9D9;
     border-radius: 30px 30px;
     height: 50px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#conteneur_titre_filtres{
+    margin-right: 20px;
+    margin-bottom: 0px;
 }
 .carte:hover{
     background-color: #DEEBFF;
